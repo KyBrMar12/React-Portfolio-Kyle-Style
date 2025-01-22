@@ -1,0 +1,54 @@
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Specific styling for the message box (textarea) */
+textarea {
+  height: 150px; /* Adjusted to make it three times taller */
+  resize: none; /* Optional: Disable resizing for consistent layout */
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ffc107;
+  outline: none;
+}
+
+form button {
+  background-color: #343a40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

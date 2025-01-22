@@ -1,0 +1,18 @@
+header {
+    background-color: #343a40; /* Dark header background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #ffc107; /* Accent color */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  

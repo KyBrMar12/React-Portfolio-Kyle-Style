@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #001f3f; /* Dark blue background */
+  color: #ffffff; /* Light text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes the full viewport height */
+}
+
+header {
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Keeps the header fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+footer {
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Keeps the footer fixed at the bottom */
+  bottom: 0;
+  left: 0;
+  z-index: 10; /* Ensure it stays above other elements */
+}
+
+.container {
+  flex: 1; /* Allows the main content to expand */
+  margin-top: 70px; /* Adds space for the fixed header */
+  margin-bottom: 50px; /* Adds space for the fixed footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

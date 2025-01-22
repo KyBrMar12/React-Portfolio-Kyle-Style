@@ -1,0 +1,20 @@
+section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    color: #fafafa; /* Modify text color at will */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

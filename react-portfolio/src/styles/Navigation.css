@@ -1,0 +1,30 @@
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #ffc107; /* Accent color */
+  background-color: #343a40;
+  text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #ffc107;
+  color: #343a40;
+}
